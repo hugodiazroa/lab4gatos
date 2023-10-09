@@ -17,7 +17,6 @@ por calificacion descendente, luego por nombre ascendente y luego por ano ascend
 hay que devolver 10 tuplas, incluso si hay empates de calificacion).
 P4. 6 puntos Los nombres de los actores y las actrices que aparecen en las pelıculas de la P3.
 Cada actor/actriz solo debe aparecer en los resultados una vez.
-
 P5. 6 puntos Los nombres de solo las actrices de las pelıculas de la P4. Cada actriz debe
 aparecer en los resultados solo una vez.
 P6. 6 puntos Las distintas d´ecadas de las pelıculas en las cuales aparecio Steve Buscemi. (Tiene
