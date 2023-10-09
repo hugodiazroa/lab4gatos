@@ -1,0 +1,31 @@
+
+En este laboratorio usted debera realizar consultas SQL en un servidor PostgreSQL que contiene
+datos de pelıculas extraıdos de IMDb. El esquema de los datos es el siguiente:
+• pelicula(nombre, anho, calificacion)
+• actor(nombre,genero)
+• personaje(p nombre,p anho, a nombre, personaje)
+
+La tabla personaje usa llaves foraneas que hacen referencia a las tablas de actor (a nombre)
+y pelicula (p nombre,p anho).
+
+A continuacion se presentan las consultas que usted debe formular a la base de datos. Debe
+entregar un archivo con las respectivas consultas escritas en SQL.
+P1. 4 puntos La cantidad de pelıculas.
+P2. 4 puntos La cantidad de anos distintos de estreno de las pelıculas.
+P3. 6 puntos Los nombres, anos y calificaciones de las 10 pelıculas mejor calificadas, ordenadas
+por calificacion descendente, luego por nombre ascendente y luego por ano ascendente (solo
+hay que devolver 10 tuplas, incluso si hay empates de calificacion).
+P4. 6 puntos Los nombres de los actores y las actrices que aparecen en las pelıculas de la P3.
+Cada actor/actriz solo debe aparecer en los resultados una vez.
+
+P5. 6 puntos Los nombres de solo las actrices de las pelıculas de la P4. Cada actriz debe
+aparecer en los resultados solo una vez.
+P6. 6 puntos Las distintas d´ecadas de las pelıculas en las cuales aparecio Steve Buscemi. (Tiene
+dos resultados; uno es 1990)
+P7. 6 puntos El conteo de pelıculas distintas por ano (para cada ano en la tabla pelicula,
+devolver su conteo de pelıculas).
+P8. 6 puntos Devuelva los mismos resultados como en la P7, pero ordenados por conteo descendente y borrando los anos cuyo conteo sea menor que 2.
+P9. 8 puntos Sea una buena pelıcula una pelıcula con una calificacion ≥ 8,6. Para cada actor/actriz, cuente sus distintas buenas pelıculas. Si un actor/una actriz no tiene una buena
+pel´ıcula, se puede omitirlo/la de los resultados. Ordene los resultados por conteo descendente.
+P10. 8 puntos Cuente el numero de actrices distintas por pelıcula. De haber una pel´ıcula sin
+actrices, deje un conteo de 0 (en vez de omitir la pel´ıcula).
